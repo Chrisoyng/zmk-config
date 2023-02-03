@@ -1,4 +1,4 @@
-#include "kyria.dtsi"
+#include "helix.dtsi"
 
 &default_transform {
 	col-offset = <10>;

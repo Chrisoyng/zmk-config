@@ -4,7 +4,6 @@ name: Flux
 type: shield
 url: https://github.com/Chrisoyng/zmk-config
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
   - encoder
