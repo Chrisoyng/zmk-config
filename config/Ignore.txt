@@ -1,0 +1,13 @@
+.conf
+.dtsi
+.yml
+.keymap
+.overlay
+.defconfig
+.shield
+
+.conf
+.dtsi
+.yml
+.keymap
+.overlay
