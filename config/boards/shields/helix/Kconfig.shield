@@ -1,8 +1,5 @@
-# Copyright (c) 2020 The ZMK Contributors
-# SPDX-License-Identifier: MIT
+config SHIELD_FLUX_LEFT
+    def_bool $(shields_list_contains,my_board_left)
 
-config SHIELD_HELIX_LEFT
-    def_bool $(shields_list_contains,helix_left)
-
-config SHIELD_HELIX_RIGHT
-    def_bool $(shields_list_contains,helix_right)
+config SHIELD_FLUX_RIGHT
+    def_bool $(shields_list_contains,my_board_right)
