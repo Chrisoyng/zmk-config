@@ -1,7 +1,0 @@
-if SHIELD_FLUX
-
-config ZMK_KEYBOARD_NAME
-    default "flux"
-
-endif
-
