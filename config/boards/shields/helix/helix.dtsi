@@ -14,7 +14,7 @@
 
     sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
+        sensors = <&left_encoder>;
     };
 
     left_encoder: encoder_left {
@@ -23,7 +23,7 @@
 
         a-gpios = <21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <50>;
+        resolution = <2>;
     };
 
     default_transform: keymap_transform_0 {
