@@ -7,6 +7,21 @@
 #include "helix.dtsi"
 
 &kscan0 {
+    left_encoder: left_encoder {
+		compatible = "alps,ec11";
+		label = "L_ENCODER";
+		resolution = <4>;
+		status = "disabled";
+
+		a-gpios = <&pro_micro 20 GPIO_PULL_UP>;
+		b-gpios = <&pro_micro 21 GPIO_PULL_UP>;
+	};
+
+	sensors {
+		compatible = "zmk,keymap-sensors";
+		sensors = <&left_encoder>;
+	};
+
     col-gpios
         = <&pro_micro 1 GPIO_ACTIVE_HIGH>
         , <&pro_micro 10 GPIO_ACTIVE_HIGH>
