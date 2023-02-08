@@ -7,10 +7,11 @@
 #include "helix.dtsi"
 
 &default_transform {
-	col-offset = <9>;
+	col-offset = <10>;
 };
 
 &kscan0 {
+
     col-gpios
         = <&pro_micro 1 GPIO_ACTIVE_HIGH>
         , <&pro_micro 0 GPIO_ACTIVE_HIGH>
