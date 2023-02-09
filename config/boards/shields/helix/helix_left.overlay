@@ -10,7 +10,7 @@
     left_encoder: left_encoder {
 		compatible = "alps,ec11";
 		label = "L_ENCODER";
-		resolution = <4>;
+		resolution = <8>;
 		status = "disabled";
 
 		a-gpios = <&pro_micro 20 GPIO_PULL_UP>;
