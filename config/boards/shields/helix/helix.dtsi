@@ -6,13 +6,6 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-/ {
-    kscan0: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
-        diode-direction = "col2row";
-    };
-};
 
 / {
     chosen {
@@ -33,6 +26,13 @@
         RC (3,0) RC(3,1) RC (3,2) RC(3,3) RC (3,4) RC(3,5) RC (3,6) RC(3,7) RC (3,8) RC(3,9) RC (3,10) RC(3,11) RC(3,12) RC (3,13) RC(3,14) RC (3,15) RC(3,16) RC (3,17) RC(3,18) RC(3,19)
         RC (4,0) RC(4,1) RC (4,2) RC(4,3) RC (4,4) RC(4,5) RC (4,6) RC(4,7) RC (4,8) RC(4,9) RC (4,10) RC(4,11) RC(4,12) RC (4,13) RC(4,14) RC (4,15) RC(4,16) RC (4,17) RC(4,18) RC(4,19)
         >;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        label = "KSCAN";
+
+        diode-direction = "col2row";
     };
 };
 
