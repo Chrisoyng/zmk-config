@@ -14,7 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: helix_left
+    shield: obama_left
   - board: nice_nano_v2
-    shield: helix_right
+    shield: obama_right
 
