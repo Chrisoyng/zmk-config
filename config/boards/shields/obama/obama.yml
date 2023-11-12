@@ -1,10 +1,10 @@
 file_format: "1"
-id: helix
-name: Helix
+id: obama
+name: Obama
 type: shield
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - helix_left
-  - helix_right
+  - obama_left
+  - obama_right
